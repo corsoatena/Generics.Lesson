@@ -17,7 +17,7 @@ namespace Generics.Lesson
             static int _index = 10;
             T[] _myArray = new T[_index];
 
-            T obj = new(); // Student obj = new Student(); 
+            T obj = new(); // Person obj = new Person(); 
             public void Add(T eleString)
             {
                 _myArray[counter] = eleString;
